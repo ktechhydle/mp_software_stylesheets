@@ -80,7 +80,7 @@ QToolBar
 }
 
 QToolButton::menu-indicator {
-    image: url('ui/UI Icons/Minor/chevron_down.svg');
+    image: url('assets/chevron_down.svg');
 }
 
 #customToolBar
@@ -186,7 +186,7 @@ QComboBox::drop-down
 
 QComboBox::down-arrow
 {
-    image: url("UI/UI Icons/Minor/down_arrow_combo.png");
+    image: url("assets/down_arrow_combo.png");
     width: 20px; /* Adjust width to fit better */
     height: 27px; /* Adjust height to fit better */
     margin: 6px; /* Adjust margin to align center */
@@ -194,7 +194,7 @@ QComboBox::down-arrow
 
 QComboBox::down-arrow:hover
 {
-    image: url("UI/UI Icons/Minor/down_arrow_combo.png");
+    image: url("assets/down_arrow_combo.png");
     background: #595959;
     margin: 6px; /* Adjust margin to align center */
 }
@@ -215,13 +215,13 @@ QComboBox QAbstractItemView
 
 QAbstractSpinBox::up-button
 {
-    image: url('UI/UI Icons/Minor/up_arrow.png');
+    image: url('assets/up_arrow.png');
     background: #5f5f5f;
 }
 
 QAbstractSpinBox::down-button
 {
-    image: url("UI/UI Icons/Minor/down_arrow.png");
+    image: url("assets/down_arrow.png");
     background: #5f5f5f;
 }
 
@@ -262,25 +262,25 @@ QCheckBox::indicator:hover
 
 QCheckBox::indicator:checked
 {
-    image: url("UI/UI Icons/Minor/check.svg");
+    image: url("assets/check.svg");
     background: #c2c2c2;
 }
 
 QCheckBox::indicator:checked:hover
 {
-    image: url("UI/UI Icons/Minor/check.svg");
+    image: url("assets/check.svg");
     background: white;
 }
 
 QCheckBox::indicator:indeterminate
 {
-    image: url("UI/UI Icons/Minor/check.svg");
+    image: url("assets/check.svg");
     background: #c2c2c2;
 }
 
 QCheckBox::indicator:indeterminate:hover
 {
-    image: url("UI/UI Icons/Minor/check.svg");
+    image: url("assets/check.svg");
     background: white;
 }
 
@@ -531,7 +531,7 @@ QTabBar::scroller
 
 QTabBar::close-button
 {
-    image: url(UI/UI Icons/Minor/close_icon.png);
+    image: url('assets/close_icon.png');
 }
 
 QTabBar::close-button:hover
@@ -582,13 +582,13 @@ QToolBox::tab
     font-weight: bold;
     color: #c0c0c0;
     border-radius: 3px;
-    image: url('UI/UI Icons/Minor/triangle-right.svg');
+    image: url('assets/triangle-right.svg');
     image-position: left;
 }
 
 QToolBox::tab:selected
 {
-    image: url('UI/UI Icons/Minor/triangle-down.svg');
+    image: url('assets/triangle-down.svg');
 }
 
 QToolTip
