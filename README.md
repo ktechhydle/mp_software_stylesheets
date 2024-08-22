@@ -45,5 +45,8 @@ project and add an import statement to your Python file(s):
 ##### `from styles import macCSS`
 Then, just pass the `macCSS` object into your `QApplication.setStyleSheet()` function and you are good to go.
 You can also set the stylesheet to any supported widgets, for example:
- 
-`myWidget.setStyleSheet(macCSS)`
+##### `myWidget.setStyleSheet(macCSS)`
+
+### Project Info
+We will update these stylesheets based on our software's requirements and updates, so please read release info
+before updating this repository. Thank you for your support!
