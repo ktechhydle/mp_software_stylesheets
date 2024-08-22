@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.2"
+   viewBox="0 0 100 100"
+   width="100"
+   height="100"
+   id="svg1"
+   sodipodi:docname="check.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="7.76"
+     inkscape:cx="50"
+     inkscape:cy="50"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <title
+     id="title1">New Project</title>
+  <defs
+     id="defs1">
+    <image
+       width="100"
+       height="100"
+       id="img1"
+       href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkAQMAAABKLAcXAAAAAXNSR0IB2cksfwAAAANQTFRFDw8PuwF7uQAAABRJREFUeJxjYBgFo2AUjIJRQE8AAAV4AAEI/UWDAAAAAElFTkSuQmCC" />
+  </defs>
+  <style
+     id="style1">
+		.s0 { fill: #0e86ff } 
+	</style>
+  <use
+     id="Background"
+     href="#img1"
+     x="0"
+     y="0" />
+  <path
+     id="Shape 1"
+     class="s0"
+     d="M 39.410518,77.867116 11.403569,53.861159 c 0,0 -2.9340613,-2.133862 0,-5.334657 2.934061,-3.200794 6.668321,-6.668321 6.668321,-6.668321 0,0 1.600397,-2.133863 4.000993,0 2.400596,2.133863 20.271696,17.737735 20.271696,17.737735 L 76.753117,22.386683 c 0,0 1.066931,-1.733763 2.667328,-0.533465 1.600397,1.200297 9.33565,8.001985 9.33565,8.001985 0,0 2.000496,1.333664 -0.933565,4.267726 -2.934061,2.800695 -40.410026,43.744187 -40.410026,43.744187 0,0 -4.000993,3.467527 -8.001986,0 z"
+     style="fill:#535353;fill-opacity:1;fill-rule:nonzero;stroke-width:1.33366" />
+</svg>
