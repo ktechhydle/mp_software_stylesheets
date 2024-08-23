@@ -75,3 +75,5 @@ app.exec()
 ## Project Info
 We will update these stylesheets based on our software's requirements and updates, so please read release info
 before updating this repository. Thank you for your support!
+
+P.S. Nobody said you can't use these stylesheets for C++, feel free to!
