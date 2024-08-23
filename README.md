@@ -59,10 +59,37 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle('Demo')
+        
+        # Main widget
+        main_widget = QWidget()
+        layout = QVBoxLayout(main_widget)
+        
+        # Basic widgets
+        layout.addWidget(QLabel("Label"))
+        layout.addWidget(QPushButton("Button"))
+        layout.addWidget(QCheckBox("CheckBox"))
+        layout.addWidget(QRadioButton("RadioButton"))
+        layout.addWidget(QLineEdit("LineEdit"))
+        layout.addWidget(QComboBox())
+        layout.addWidget(QSpinBox())
+        layout.addWidget(QSlider(Qt.Horizontal))
+        layout.addWidget(QProgressBar())
+        layout.addWidget(QTextEdit())
+        layout.addWidget(QListView())
+        layout.addWidget(QTableView())
+        layout.addWidget(QTreeView())
+        layout.addWidget(QCalendarWidget())
+        layout.addWidget(QTabWidget())
+        layout.addWidget(QToolBar("ToolBar"))
+        layout.addWidget(QStatusBar())
+        layout.addWidget(QMenuBar())
+        
+        self.setCentralWidget(main_widget)
+        self.setGeometry(300, 100, 800, 600)
 
 app = QApplication([])
 
-if sys.platform == 'darwin'
+if sys.platform == 'darwin':
     app.setStyleSheet(macCSS)
 else:
     app.setStyleSheet(windowsCSS)
