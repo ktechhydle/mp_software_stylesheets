@@ -47,6 +47,31 @@ Then, just pass the `macCSS` object into your `QApplication.setStyleSheet()` fun
 You can also set the stylesheet to any supported widgets, for example:
 ##### `myWidget.setStyleSheet(macCSS)`
 
+## Full demo
+```
+import sys
+from PyQt5.QtWidgets import *
+from PyQt5.QtGui import *
+from PyQt5.QtCore import *
+from mp_software_stylesheets.styles import macCSS, windowsCSS
+
+class MainWindow(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        self.setWindowTitle('Demo')
+
+app = QApplication([])
+
+if sys.platform == 'darwin'
+    app.setStyleSheet(macCSS)
+else:
+    app.setStyleSheet(windowsCSS)
+
+window = MainWindow()
+window.show()
+app.exec()
+```
+
 ## Project Info
 We will update these stylesheets based on our software's requirements and updates, so please read release info
 before updating this repository. Thank you for your support!
