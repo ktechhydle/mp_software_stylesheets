@@ -80,7 +80,7 @@ QToolBar
 }
 
 QToolButton::menu-indicator {
-    image: url('assets/chevron_down.svg');
+    image: url('mp_software_stylesheets/assets/chevron_down.svg');
 }
 
 #customToolBar
@@ -215,7 +215,7 @@ QComboBox QAbstractItemView
 
 QAbstractSpinBox::up-button
 {
-    image: url('assets/up_arrow.png');
+    image: url('mp_software_stylesheets/assets/up_arrow.png');
     background: #5f5f5f;
 }
 
@@ -531,7 +531,7 @@ QTabBar::scroller
 
 QTabBar::close-button
 {
-    image: url('assets/close_icon.png');
+    image: url('mp_software_stylesheets/assets/close_icon.png');
 }
 
 QTabBar::close-button:hover
@@ -582,13 +582,13 @@ QToolBox::tab
     font-weight: bold;
     color: #c0c0c0;
     border-radius: 3px;
-    image: url('assets/triangle-right.svg');
+    image: url('mp_software_stylesheets/assets/triangle-right.svg');
     image-position: left;
 }
 
 QToolBox::tab:selected
 {
-    image: url('assets/triangle-down.svg');
+    image: url('mp_software_stylesheets/assets/triangle-down.svg');
 }
 
 QToolTip

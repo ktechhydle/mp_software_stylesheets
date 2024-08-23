@@ -1,5 +1,5 @@
-with open('mac_style.css', 'r') as f:
+with open('mp_software_stylesheets/mac_style.css', 'r') as f:
     macCSS = f.read()
 
-with open('windows_style.css', 'r') as f:
+with open('mp_software_stylesheets/windows_style.css', 'r') as f:
     windowsCSS = f.read()
