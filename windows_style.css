@@ -92,9 +92,7 @@ QToolButton::menu-indicator {
 
 QToolBar::handle
 {
-    background-color: #c8c8c8; /* Background color of the movable handle */
-    border: 1px solid #474747; /* Border */
-    border-radius: 4px; /* Border radius */
+    image: url('mp_software_stylesheets/assets/toolbar-handle.svg');
 }
 
 QToolBar::separator
