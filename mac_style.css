@@ -89,9 +89,14 @@ QToolButton::menu-indicator {
     border: none;
 }
 
-QToolBar::handle
+QToolBar::handle:horizontal
 {
     image: url('mp_software_stylesheets/assets/toolbar-handle.svg');
+}
+
+QToolBar::handle:vertical
+{
+    image: url('mp_software_stylesheets/assets/toolbar-handle-vertical.svg');
 }
 
 QToolBar::separator
