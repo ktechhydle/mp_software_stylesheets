@@ -89,12 +89,12 @@ QToolButton::menu-indicator {
     border: none;
 }
 
-QToolBar::handle:horizontal
+QToolBar::handle:vertical
 {
     image: url('mp_software_stylesheets/assets/toolbar-handle.svg');
 }
 
-QToolBar::handle:vertical
+QToolBar::handle:horizontal
 {
     image: url('mp_software_stylesheets/assets/toolbar-handle-vertical.svg');
 }
