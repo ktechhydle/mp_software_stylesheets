@@ -64,6 +64,7 @@ QMenu::item
 QMenu::item:selected
 {
     background-color: #0664c3;
+    border-radius: 8px;
 }
 
 QMenu:separator
