@@ -22,57 +22,6 @@ QGraphicsView
     border: 1px solid #424242;
 }
 
-QMenuBar
-{
-    background-color: #535353;
-    color: #c0c0c0;
-    padding: 2px;
-}
-
-QMenuBar::item
-{
-    padding: 5px 12px 5px 12px;
-    color: #c7c7c7;
-}
-
-QMenuBar::item:selected
-{
-    background-color: #474747;
-    border-radius: 5px;
-    color: white;
-}
-
-QMenuBar::item:pressed
-{
-    background-color: #0664c3;
-}
-
-QMenu
-{
-    padding-top: 3px;
-    background-color: #535353;
-    border: 1px solid #5b5b5b;
-}
-
-QMenu::item
-{
-    padding: 5px 10px 5px 10px;
-    min-width: 180px;
-    color: white;
-}
-
-QMenu::item:selected
-{
-    background-color: #0664c3;
-    border-radius: 8px;
-}
-
-QMenu:separator
-{
-    background: #434343;
-    height: 1px;
-}
-
 QToolBar
 {
     background-color: #535353; /* Background color */
