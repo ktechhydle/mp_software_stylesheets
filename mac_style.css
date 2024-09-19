@@ -188,6 +188,21 @@ QAbstractSpinBox::down-button:hover
     background: #595959;
 }
 
+QProgressBar
+{
+    background-color: #c2c2c2;
+    border: 2px solid #747474;
+    border-radius: 6px;
+    height: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+QProgressBar::chunk
+{
+    background-color: #0265dc;
+    border-radius: 4px;
+}
 
 /* Checkbox */
 QCheckBox
