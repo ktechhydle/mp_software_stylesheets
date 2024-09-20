@@ -86,6 +86,8 @@ QLabel
 
 /* Line edits, spin boxes, combo boxes */
 QLineEdit,
+QPlainTextEdit,
+QTextEdit,
 QSpinBox,
 QDoubleSpinBox
 {
@@ -97,6 +99,8 @@ QDoubleSpinBox
 }
 
 QLineEdit:hover,
+QPlainTextEdit:hover,
+QTextEdit:hover,
 QDoubleSpinBox:hover,
 QSpinBox:hover
 {
@@ -110,6 +114,12 @@ QSpinBox:focus
     color: black;
     background-color: white;
     border: 2px solid #0078d7;
+}
+
+QPlainTextEdit:focus,
+QTextEdit:focus
+{
+    background-color: #1e1f22;
 }
 
 QComboBox
