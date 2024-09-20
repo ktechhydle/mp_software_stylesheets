@@ -119,7 +119,7 @@ QSpinBox:focus
 QPlainTextEdit:focus,
 QTextEdit:focus
 {
-    background-color: #1e1f22;
+    background-color: #454545;
 }
 
 QComboBox
