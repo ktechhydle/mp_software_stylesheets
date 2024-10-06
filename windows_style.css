@@ -623,11 +623,17 @@ QToolBox::tab:selected
 
 QToolTip
 {
+    background-color: #535353;
     color: white;
-    background: #535353;
-    border: 2px solid #5b5b5b;
-    border-radius: 5px;
-    padding: 2px;
+    border: none;
+    font-weight:bolder;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1.5px;
+    border-bottom-width: 1.5px;
+    border-style: solid;
+    border-color: #424242;
+    padding: 0px;
 }
 
 /* Custom widgets */
