@@ -15,7 +15,7 @@ try:
     with open(os.path.join(base_path, 'unified.css'), 'r') as unified_file:
         unifiedCSS = unified_file.read()
 
-    with open(os.path.join(base_path, 'blender.css'), 'r') as blender_file:
+    with open(os.path.join(base_path, 'blender_style.css'), 'r') as blender_file:
         blenderCSS = blender_file.read()
 
 except FileNotFoundError as e:
