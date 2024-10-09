@@ -51,7 +51,7 @@ QMenuBar::item:pressed
 
 QMenu
 {
-    padding-top: 3px;
+    padding: 3px;
     background-color: #181818;
     border: 1px solid #181818;
 }
@@ -72,9 +72,9 @@ QMenu::item:selected
 
 QMenu:separator
 {
-    background: #434343;
-    padding-left: 5px;
-    padding-right: 5px;
+    background: #2f2f2f;
+    padding-left: 10px;
+    padding-right: 10px;
     height: 1px;
 }
 
@@ -88,12 +88,6 @@ QToolBar
 
 QToolButton::menu-indicator {
     image: url('mp_software_stylesheets/assets/chevron_down.svg');
-}
-
-#customToolBar
-{
-    background-color: #535353;
-    border: none;
 }
 
 QToolBar::handle:vertical
@@ -115,16 +109,16 @@ QToolBar::separator
 
 QToolButton
 {
-    background-color: #202020; /* Background color of buttons */
+    background-color: #343434;
     border-radius: 5px;
-    border: none; /* Button border */
-    padding: 4px 8px; /* Button padding */
-    margin: 2px; /* Button margin */
+    border: none;
+    padding: 4px 8px;
+    margin: 2px;
 }
 
 QToolButton:hover
 {
-    background: #303030;
+    background: #404040;
     border-radius: 5px;
 }
 
@@ -136,7 +130,7 @@ QToolButton:checked
 
 QLabel
 {
-    color: #c7c7c7;
+    color: #c2c2c2;
     background-color: transparent;
     font-family: Helvetica Neue;
 }
@@ -644,7 +638,7 @@ QToolBox::tab:selected
 
 QToolTip
 {
-    background-color: #535353;
+    background-color: #181818;
     color: white;
     border: none;
     font-weight:bolder;
@@ -754,7 +748,7 @@ QToolTip
 #customMenu
 {
     border-radius: 10px;
-    border: 3px solid #424242;
+    border: 3px solid #181818;
 }
 
 #splitter
@@ -766,4 +760,23 @@ QToolTip
 #tipWindow
 {
     background-color: #343434;
+}
+
+#tipWindow QLabel
+{
+    background-color: #343434;
+    border: none;
+    border-radius: 0px;
+}
+
+#customToolBar
+{
+    background-color: transparent;
+    border: none;
+    padding: 0px 0px 0px 0px
+}
+
+#customToolButton
+{
+    background-color: #202020;
 }
