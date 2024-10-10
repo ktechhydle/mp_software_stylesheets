@@ -155,7 +155,7 @@ QDoubleSpinBox
     color: #dfdfdf;
     border: none;
     border-radius: 3px;
-    height: 25px;
+    height: 22px;
 }
 
 QLineEdit:hover,
@@ -218,7 +218,8 @@ QComboBox
     border-radius: 6px;
     padding: 2px 25px 2px 8px;
     min-width: 75px;
-    height: 25px;
+    height: 20px;
+    font-size: 13px;
 }
 
 QComboBox:on
@@ -407,7 +408,8 @@ QGroupBox
 /* Sliders and scrollbars */
 QSlider
 {
-  border: None;
+    border: None;
+    background: transparent;
 }
 
 QSlider:horizontal
