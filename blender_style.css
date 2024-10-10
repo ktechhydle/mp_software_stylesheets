@@ -676,15 +676,17 @@ QToolTip
     background-color: #181818;
 }
 
-#searchList {
-    background-color: #535353;
+#searchList
+{
+    background-color: #343434;
     border: 2px solid #424242;
     border-radius: 5px;
     padding: 2px;
     font-size: 12px;
 }
 
-#searchList::item {
+#searchList::item
+{
     background-color: #3c3c3c;
     border-radius: 3px;
     padding: 3px 5px;
@@ -692,29 +694,15 @@ QToolTip
     color: #dcdcdc;
 }
 
-#searchList::item:selected {
-    background-color: #0066cc;
+#searchList::item:selected
+{
+    background-color: #4772b3;
     color: white;
 }
 
-#searchList::item:hover {
-    background-color: #4a4a4a;
-}
-
-#searchList:QScrollBar:vertical {
-    border: 1px solid #444;
-    background: #2e2e2e;
-    width: 10px;
-    border-radius: 5px;
-}
-
-#searchList:QScrollBar::handle:vertical {
-    background: #555;
-    border-radius: 5px;
-}
-
-#searchList:QScrollBar::handle:vertical:hover {
-    background: #666;
+#searchList::item:hover
+{
+    background-color: #628bca;
 }
 
 #noneBorderedButton
