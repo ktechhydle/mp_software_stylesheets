@@ -21,7 +21,9 @@ QMainWindow
 
 QGraphicsView
 {
-    border: 1px solid #424242;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 5px 0px 5px;
 }
 
 QMenuBar
@@ -325,27 +327,28 @@ QCheckBox::indicator:indeterminate:hover
 /* Buttons for dialogs */
 QPushButton
 {
-    background-color: #535353;
-    height: 20px;
-    padding-bottom: 1px;
-    border-radius: 1px;
-    border: 2px solid #747474;
-    color: white;
+    border: none;
+    border-radius: 4px;
+    background-color: #656565;
+    font-size: 15px;
+    color: #d2d2d2;
+    min-height: 25px;
 }
 
 QPushButton:hover
 {
-    background-color: #3b3b3b;
+    background-color: #707070;
+    color: white;
 }
 
 QPushButton:checked {
-    color: #535353;
-    background-color: #c2c2c2;
+    color: white;
+    background-color: #4772b3;
 }
 
 QPushButton:checked:hover
 {
-    background-color: #c7c7c7;
+    background-color: #628bca;
 }
 
 QDialog
@@ -595,6 +598,7 @@ QDockWidget
 {
     background: #424242;
     color: white;
+    padding-top: 5px;
 }
 
 QListWidget
@@ -626,6 +630,8 @@ QToolBox
 {
     background-color: #303030;
     padding: 10px 10px 10px 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 QToolBox::tab {
@@ -653,7 +659,7 @@ QToolBox::tab:selected
 
 QToolTip
 {
-    background-color: #181818;
+    background-color: #343434;
     color: white;
     border: none;
     font-weight:bolder;
@@ -698,7 +704,11 @@ QToolTip
 
 #dockWidgetTitleBar
 {
-    border-radius: 5px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
     background: #282828;
 }
 
@@ -775,13 +785,6 @@ QToolTip
 #tipWindow
 {
     background-color: #343434;
-}
-
-#tipWindow QLabel
-{
-    background-color: #343434;
-    border: none;
-    border-radius: 0px;
 }
 
 #customToolBar
