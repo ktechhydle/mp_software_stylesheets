@@ -14,11 +14,6 @@ QMainWindow
     font-family: Helvetica Neue;
 }
 
-#centralwidget
-{
-    background-color: #535353;
-}
-
 QGraphicsView
 {
     border: none;
