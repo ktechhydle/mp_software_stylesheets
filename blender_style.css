@@ -395,14 +395,14 @@ QGroupBox::title
     left: 10px;
     padding: 0 3px 0 3px;
     background-color: transparent;
-    color: white;
+    color: #c2c2c2;
 }
 
 QGroupBox
 {
-    border: 1px solid #434343;
+    border: 1px solid #707070;
     border-radius: 5px;
-    margin-top: 0.5em;
+    margin-top: 15px;
 }
 
 /* Sliders and scrollbars */
@@ -466,8 +466,9 @@ QSlider::handle:vertical
 
 QScrollBar
 {
-    background: #4b4b4b;
-    border: 2px solid #474747;
+    background: #2b2b2b;
+    border: 1px solid transparent;
+    border-radius: 5px;
 }
 
 QScrollBar:horizontal
@@ -477,7 +478,7 @@ QScrollBar:horizontal
 
 QScrollBar:vertical
 {
-    width: 20px;
+    width: 10px;
 }
 
 QScrollBar::add-page,
@@ -495,104 +496,58 @@ QScrollBar::sub-line
 
 QScrollBar::handle
 {
-    background: #5f5f5f;
-    border-radius: 3px;
+    background: #656565;
+    border-radius: 5px;
 }
 
 QScrollBar::handle:hover
 {
-    background: #747474;
+    background: #707070;
 }
 
 /* Tabs and tab widgets */
 QTabWidget
 {
-    border: 1px solid #2a2a2a;
+    border: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 QTabWidget::pane
 {
     border: none;
+    background: transparent;
 }
 
 QTabBar
 {
-    background-color: #424242;
-    border: none; /* Remove any border that might be causing the gap */
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    qproperty-drawBase: 0;
 }
 
 QTabBar::tab
 {
-    background: #424242;
-    padding: 8px;
-    border-top: 1px solid #383838;
-    border-right: 1px solid #383838;
-    border-left: 1px solid #383838;
-    margin: 0px; /* Ensure no margin that might cause the gap */
-}
-
-QTabBar::tab:vertical:right
-{
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-}
-
-QTabBar::tab:vertical:left
-{
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
-}
-
-QTabBar::tab:bottom,
-QTabBar::tab:top
-{
-    color: #a0a0a0;
-    min-width: 40px;
-}
-
-QTabBar::tab:left,
-QTabBar::tab:right
-{
-    min-height: 60px;
-    padding: 10px;
+    background: #232323;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    color: #c2c2c2;
 }
 
 QTabBar::tab:hover
 {
-    background-color: #4f4f4f;
+    background-color: #232323;
+    color: white;
 }
 
 QTabBar::tab:selected
 {
     color: white;
-    font-weight: bold;
-    background-color: #535353;
-}
-
-QTabBar::indicator
-{
-    width: 5px;
-    height: 5px;
-}
-
-QTabBar::scroller
-{
-    width: 0px;
-}
-
-QTabBar::close-button
-{
-    image: url('mp_software_stylesheets/assets/close_icon.png');
-}
-
-QTabBar::close-button:hover
-{
-    background: #424242;
-}
-
-QTabBar::scroller:next, QTabBar::scroller:prev
-{
-    width: 0px;
+    background-color: #3d3d3d;
 }
 
 /* Dockwidget, listwidget, toolbox */
@@ -605,7 +560,7 @@ QDockWidget
 
 QListWidget
 {
-    background-color: #535353;
+    background-color: #3d3d3d;
     border: none;
 }
 
@@ -636,7 +591,8 @@ QToolBox
     border-bottom-right-radius: 5px;
 }
 
-QToolBox::tab {
+QToolBox::tab
+{
     background-color: #3d3d3d;
     border: 1px solid #3d3d3d;
     border-radius: 5px;
@@ -680,6 +636,7 @@ QToolTip
     background: transparent;
     border: none;
     border-bottom: 2px solid #454545;
+    border-radius: 0px;
     padding: 5px;
     font-size: 16px;
 }
@@ -692,7 +649,7 @@ QToolTip
 
 #modernLineEdit:focus
 {
-    border-bottom: 2px solid #0078d7;
+    border-bottom: 2px solid #4772b3;
     color: white
 }
 
