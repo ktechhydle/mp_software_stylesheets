@@ -1,9 +1,9 @@
 # MP Software Stylesheets
 ***The official Qt CSS (QSS) stylesheets of MP Software***
 
-We offer two stylesheets, `macCSS` and `windowsCSS`, both working for the desired platform.
-Each one includes fonts and styles supported on the respective platform. All logos and assets
-are interchangeable, meaning they work for both platforms. 
+We offer four stylesheets, `macCSS`, `windowsCSS`, `unifiedCSS`, and `blenderCSS` all working for the desired platform.
+Each one includes fonts and styles supported on the respective platform, and all logos/assets
+are interchangeable.
 
 ## Supported Widgets
 - **QMainWindow** and **QWidget**
@@ -29,15 +29,6 @@ are interchangeable, meaning they work for both platforms.
 - **QCheckBox**
 - **QSlider**
 - **QGroupBox**
-
-## Custom Widgets
-If you call `myWidget.setObjectName()`, you can specify that object in the stylesheet via `#myWidget` and
-create custom attributes JUST for that widget. If you set any widgets object names to the ones below you get 
-custom widgets not supported by normal Qt.
-
-- `modernLineEdit`: a modern style for QLineEdits
-- `dockWidgetTitleBar`: a title bar for QDockWidgets with custom title bars enabled
-- `strokeLabel`: a label with an underline attribute for QLabels
 
 ## Install
 To start, simply clone the repository (`https://github.com/ktechhydle/mp_software_stylesheets.git`) to your 
@@ -78,7 +69,6 @@ class MainWindow(QMainWindow):
         layout.addWidget(QListView())
         layout.addWidget(QTableView())
         layout.addWidget(QTreeView())
-        layout.addWidget(QCalendarWidget())
         layout.addWidget(QTabWidget())
         layout.addWidget(QToolBar("ToolBar"))
         layout.addWidget(QStatusBar())
