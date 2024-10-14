@@ -139,8 +139,6 @@ QLabel
 
 /* Line edits, spin boxes, combo boxes */
 QLineEdit,
-QPlainTextEdit,
-QTextEdit,
 QSpinBox,
 QDoubleSpinBox
 {
@@ -154,8 +152,6 @@ QDoubleSpinBox
 }
 
 QLineEdit:hover,
-QPlainTextEdit:hover,
-QTextEdit:hover,
 QDoubleSpinBox:hover,
 QSpinBox:hover
 {
@@ -165,12 +161,17 @@ QSpinBox:hover
 
 QLineEdit:focus,
 QDoubleSpinBox:focus,
-QSpinBox:focus,
-QPlainTextEdit:focus,
-QTextEdit:focus
+QSpinBox:focus
 {
     color: white;
     background-color: #222222;
+}
+
+QPlainTextEdit,
+QTextEdit
+{
+    background-color: #181818;
+    border-radius: 5px;
 }
 
 QAbstractSpinBox::up-button
