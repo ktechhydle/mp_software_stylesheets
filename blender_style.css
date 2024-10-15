@@ -549,14 +549,14 @@ QTabBar::tab:selected
 /* Dockwidget, listwidget, toolbox */
 QDockWidget
 {
-    background: #424242;
+    background: #303030;
+    border-radius: 5px;
     color: white;
-    padding-top: 5px;
 }
 
 QListWidget
 {
-    background-color: #3d3d3d;
+    background-color: transparent;
     border: none;
 }
 
@@ -565,7 +565,7 @@ QListWidget::item
     color: white;
     background-color: #474747;
     padding: 10px;
-    margin: 5px;
+    margin: 3px;
     border: 2px solid #535353;
     border-radius: 5px;
 }
@@ -740,4 +740,27 @@ QToolTip
 #customToolButton
 {
     background-color: #202020;
+}
+
+#panelTitle
+{
+    background-color: #3d3d3d;
+    border: 1px solid #3d3d3d;
+    border-radius: 5px;
+    color: #c2c2c2;
+    image: url('mp_software_stylesheets/assets/triangle-right.svg');
+    image-position: left;
+}
+
+#panelTitle:checked
+{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    image: url('mp_software_stylesheets/assets/triangle-down.svg');
+    image-position: left;
+}
+
+#customScrollArea
+{
+    background-color: #303030;
 }
