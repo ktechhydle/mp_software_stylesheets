@@ -571,13 +571,20 @@ QListWidget::item
     border-radius: 5px;
 }
 
-QListWidget::item:selected
-{
-}
-
 QListWidget::item:hover
 {
     border: 2px solid #636363;
+    background: #3f3f3f;
+}
+
+QListWidget::item:selected
+{
+    background: #4772b3;
+}
+
+QListWidget::item:selected:hover
+{
+    background: #628bca;
 }
 
 QToolBox
