@@ -61,6 +61,12 @@ QMenu::item
     color: #d3d3d3;
 }
 
+QMenu::icon
+{
+    padding: 1px;
+    margin-right: 10px;  /* Optional: Space between icon and text */
+}
+
 QMenu::item:selected
 {
     background-color: #3f3f3f;
