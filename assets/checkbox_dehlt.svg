@@ -1,3 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" xml:space="preserve">
-    <path fill="#ffffff" d="M6.031 5A1.04 1.04 0 0 0 5 6.031v7.938A1.04 1.04 0 0 0 6.031 15h7.938A1.04 1.04 0 0 0 15 13.969V6.03A1.04 1.04 0 0 0 13.969 5zm0 1h7.938c.026 0 .031.005.031.031v7.938c0 .026-.005.03-.031.03H6.03c-.026 0-.03-.004-.03-.03V6.03C5.999 6.005 6.004 6 6.03 6z"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 20 20"
+   xml:space="preserve"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="checkbox_dehlt.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs1" /><sodipodi:namedview
+   id="namedview1"
+   pagecolor="#505050"
+   bordercolor="#eeeeee"
+   borderopacity="1"
+   inkscape:showpageshadow="0"
+   inkscape:pageopacity="0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#505050"
+   inkscape:zoom="38.6"
+   inkscape:cx="10"
+   inkscape:cy="10"
+   inkscape:window-width="1920"
+   inkscape:window-height="991"
+   inkscape:window-x="-9"
+   inkscape:window-y="-9"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg1" />
+    <path
+   fill="#ffffff"
+   d="M 4.180171,2.6683938 A 1.5249741,1.5249741 0 0 0 2.6683938,4.180171 v 11.639658 a 1.5249741,1.5249741 0 0 0 1.5117772,1.511777 h 11.639658 a 1.5249741,1.5249741 0 0 0 1.511777,-1.511777 V 4.1787047 A 1.5249741,1.5249741 0 0 0 15.819829,2.6683938 Z m 0,1.4663212 h 11.639658 c 0.03812,0 0.04545,0.00733 0.04545,0.045457 v 11.639657 c 0,0.03812 -0.0073,0.04399 -0.04545,0.04399 H 4.1787047 c -0.038125,0 -0.04399,-0.0059 -0.04399,-0.04399 V 4.1787047 c -0.00147,-0.036658 0.00586,-0.04399 0.04399,-0.04399 z"
+   id="path1"
+   style="stroke-width:1.46633" />
 </svg>

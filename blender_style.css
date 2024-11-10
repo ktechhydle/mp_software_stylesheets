@@ -81,6 +81,7 @@ QMenu::item:disabled
 
 QMenu::indicator
 {
+    padding-left: 5px;
     image: url('mp_software_stylesheets/assets/checkbox_dehlt.svg');
 }
 
