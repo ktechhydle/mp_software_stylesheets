@@ -79,6 +79,16 @@ QMenu::item:disabled
     color: #7e7e7e;
 }
 
+QMenu::indicator
+{
+    image: url('mp_software_stylesheets/assets/checkbox_dehlt.svg');
+}
+
+QMenu::indicator:checked
+{
+    image: url('mp_software_stylesheets/assets/checkbox_hlt.svg');
+}
+
 QMenu:separator
 {
     background: #2f2f2f;
