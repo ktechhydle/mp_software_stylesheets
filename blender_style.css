@@ -406,8 +406,9 @@ QDialogButtonBox QPushButton:default:hover
 QGroupBox::title
 {
     subcontrol-origin: margin;
-    left: 10px;
-    padding: 0 3px 0 3px;
+    left: 2px;
+    bottom: 5px;
+    padding: 1px;
     background-color: transparent;
     color: #c2c2c2;
 }
