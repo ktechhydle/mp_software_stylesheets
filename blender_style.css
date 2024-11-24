@@ -637,7 +637,7 @@ QToolBox::tab:selected
 
 QToolTip
 {
-    background-color: #343434;
+    background-color: #1d1d1d;
     color: #c2c2c2;
     border: none;
     padding: 5px;
