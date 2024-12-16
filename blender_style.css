@@ -565,6 +565,21 @@ QTabBar::tab:selected
     background-color: #3d3d3d;
 }
 
+QTableWidget
+{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+QHeaderView::section
+{
+    background-color: #f0f0f0;
+    color: #000000;
+    font-weight: bold;
+    border: 1px solid #d3d3d3;
+}
+
+
 /* Dockwidget, listwidget, toolbox */
 QDockWidget
 {
