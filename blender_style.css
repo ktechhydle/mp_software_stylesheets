@@ -769,6 +769,16 @@ QToolTip
     padding: 0px 0px 0px 0px
 }
 
+#toolbarButton
+{
+    background-color: transparent;
+}
+
+#toolbarButton:hover
+{
+    background-color: #505050;
+}
+
 #customToolButton
 {
     background-color: #202020;
