@@ -779,6 +779,16 @@ QToolTip
     background-color: #505050;
 }
 
+#toolbarButton:checked {
+    color: white;
+    background-color: #4772b3;
+}
+
+#toolbarButton:checked:hover
+{
+    background-color: #628bca;
+}
+
 #customToolButton
 {
     background-color: #202020;
