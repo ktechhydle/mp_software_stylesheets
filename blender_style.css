@@ -9,7 +9,7 @@ QWidget
 
 QMainWindow
 {
-    background-color: #181818;
+    background-color: #202020;
     color: white;
     font-family: Helvetica Neue;
 }
@@ -100,10 +100,11 @@ QMenu:separator
 
 QToolBar
 {
-    background-color: #343434; /* Background color */
-    border: 2px solid transparent; /* Border */
-    border-radius: 7px;
-    padding: 3px; /* Padding */
+    background-color: #343434;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    border-top-right-radius: 20px;
+    padding: 3px;
 }
 
 QToolButton::menu-indicator {
