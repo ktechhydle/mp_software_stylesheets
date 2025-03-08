@@ -7,8 +7,8 @@ base_path = os.path.join(sys._MEIPASS, 'mp_software_stylesheets') if getattr(sys
 
 # Load CSS files with error handling
 try:
-    with open(os.path.join(base_path, 'dot39_style.css'), 'r') as stylesheet_f:
-        dot39CSS = stylesheet_f.read()
+    with open(os.path.join(base_path, 'style.css'), 'r') as stylesheet_f:
+        AppCSS = stylesheet_f.read()
 
 except FileNotFoundError as e:
     print(f'Error: {e}. File not found.')
