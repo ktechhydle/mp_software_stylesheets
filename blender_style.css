@@ -183,7 +183,7 @@ QDoubleSpinBox:focus,
 QSpinBox:focus
 {
     color: white;
-    background-color: #222222;
+    background-color: #333333;
 }
 
 QPlainTextEdit,
