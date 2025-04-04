@@ -601,12 +601,8 @@ QListWidget::item
     background-color: transparent;
     padding: 10px;
     margin: 3px;
+    border: 2px solid #535353;
     border-radius: 5px;
-}
-
-QListWidget::item:hover
-{
-    background: #3f3f3f;
 }
 
 QListWidget::item:selected
@@ -806,4 +802,10 @@ QToolTip
 #customScrollArea
 {
     background-color: #303030;
+}
+
+#colorButton
+{
+    border: none;
+    border-radius: 5px;
 }
