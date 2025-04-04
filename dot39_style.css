@@ -603,6 +603,7 @@ QListWidget::item
     margin: 3px;
     border: 2px solid #535353;
     border-radius: 5px;
+    min-height: 30;
 }
 
 QListWidget::item:selected
