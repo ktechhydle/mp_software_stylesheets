@@ -718,7 +718,7 @@ QToolTip
     height: 35px;
     border-radius: 5px;
     padding: 5px;
-    margin: 0px;
+    margin: 0px 0px 5px 0px;
     background-color: #3f3f3f;
     color: white;
 }
