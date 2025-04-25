@@ -548,16 +548,16 @@ QTabBar
 
 QTabBar::tab
 {
-    background: #232323;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    padding: 10px 10px 10px 10px;
+    background: transparent;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px 15px 10px 15px;
     color: #c2c2c2;
 }
 
 QTabBar::tab:hover
 {
-    background-color: #232323;
+    background-color: #303030;
     color: white;
 }
 
@@ -565,6 +565,19 @@ QTabBar::tab:selected
 {
     color: white;
     background-color: #3d3d3d;
+}
+
+QTabBar::close-button {
+    image: url("mp_software_stylesheets/assets/close-button-qdockwidget.svg");
+    subcontrol-origin: padding;
+    subcontrol-position: right;
+    padding: 1px;
+    width: 10px;
+    height: 10px;
+}
+
+QTabBar::close-button:hover {
+    background-color: #fc6262;
 }
 
 QTableWidget
@@ -661,38 +674,9 @@ QToolTip
 }
 
 /* Custom widgets */
-#runButton
+#searchBar
 {
-    width: 100px;
-    height: 100px;
-    border: 3px solid #505050;
-    border-radius: 50px;
-    font-size: 30px;
-    background-color: qlineargradient(
-        x1: 0, y1: 0, x2: 1, y2: 1,
-        stop: 0 #00AADE,
-        stop: 1 #D400B8
-    );
-    color: white;
-}
-
-#pageButton
-{
-    background: transparent;
-}
-
-#pageButton
-{
-    background-color: transparent;
-}
-
-#pageButton:hover
-{
-    background-color: #606060;
-    color: #f0f0f0;
-}
-
-#pageButton:checked {
-    color: white;
-    background-color: #4772b3;
+    height: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
