@@ -687,6 +687,11 @@ QToolTip
     border: 3px solid #181818;
 }
 
+#customMenu QWidget
+{
+    background-color: transparent;
+}
+
 #listWidget
 {
     background-color: transparent;
