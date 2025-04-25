@@ -11,6 +11,8 @@ try:
         MPRUNCSS = stylesheet_f.read()
     with open(os.path.join(base_path, 'sweep_pc_style.css'), 'r') as stylesheet_f:
         SWEEPPCCSS = stylesheet_f.read()
+    with open(os.path.join(base_path, 'ibrowse_style.css'), 'r') as stylesheet_f:
+        IBROWSECSS = stylesheet_f.read()
 
 except FileNotFoundError as e:
     print(f'Error: {e}. File not found.')
