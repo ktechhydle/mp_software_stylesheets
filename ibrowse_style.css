@@ -681,6 +681,15 @@ QToolTip
     padding-right: 5px;
 }
 
+#searchBarButton
+{
+    background-color: transparent;
+    font-family: "Segoe UI";
+    font-size: 25px;
+    width: 20px;
+    height: 20px;
+}
+
 #customMenu
 {
     border-radius: 10px;
