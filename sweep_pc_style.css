@@ -661,155 +661,38 @@ QToolTip
 }
 
 /* Custom widgets */
-#modernLineEdit
-{
-    background: transparent;
-    border: none;
-    border-bottom: 2px solid #454545;
-    border-radius: 0px;
-    padding: 5px;
-    font-size: 16px;
-}
-
-#modernLineEdit:hover
-{
-    border-bottom: 2px solid #5a5a5a;
-    border-radius: 0px;
-}
-
-#modernLineEdit:focus
-{
-    border-bottom: 2px solid #4772b3;
-    color: white
-}
-
-#strokeLabel
-{
-    color: white;
-    background-color: transparent;
-    font-family: Helvetica Neue;
-    text-decoration: underline;
-}
-
-#dockWidgetTitleBar
-{
-    border: none;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    background: #282828;
-}
-
-#containerWidget
-{
-    background-color: #181818;
-}
-
-#searchList
-{
-    background-color: #343434;
-    border: 2px solid #424242;
-    border-radius: 5px;
-    padding: 2px;
-    font-size: 12px;
-}
-
-#searchList::item
-{
-    background-color: #3c3c3c;
-    border-radius: 3px;
-    padding: 3px 5px;
-    margin: 1px;
-    color: #dcdcdc;
-}
-
-#searchList::item:selected
-{
-    background-color: #4772b3;
-    color: white;
-}
-
-#searchList::item:hover
-{
-    background-color: #628bca;
-}
-
-#noneBorderedButton
-{
-    background: #282828;
-    border: none;
-    border-radius: 5px;
-}
-
-#noneBorderedButton:hover
-{
-    background: #494949;
-}
-
-#customMenu
-{
-    border-radius: 10px;
-    border: 3px solid #181818;
-}
-
-#splitter
-{
-    background-color: #4b4b4b;
-    color: #4b4b4b;
-}
-
-#tipWindow
-{
-    background-color: #343434;
-}
-
-#customToolBar
-{
-    background-color: transparent;
-    border: none;
-    padding: 0px 0px 0px 0px
-}
-
-#toolbarButton
-{
-    background-color: transparent;
-}
-
-#toolbarButton:hover
-{
-    background-color: #505050;
-}
-
-#toolbarButton:checked {
-    color: white;
-    background-color: #4772b3;
-}
-
-#toolbarButton:checked:hover
-{
-    background-color: #628bca;
-}
-
-#customToolButton
-{
-    background-color: #202020;
-}
-
-#panelTitle
-{
-    background-color: #3d3d3d;
-    border: 1px solid #3d3d3d;
-    border-radius: 5px;
-    color: #c2c2c2;
-}
-
-#customScrollArea
-{
-    background-color: #303030;
-}
-
 #runButton
 {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #505050;
+    border-radius: 50px;
+    font-size: 30px;
+    background-color: qlineargradient(
+        x1: 0, y1: 0, x2: 1, y2: 1,
+        stop: 0 #00AADE,
+        stop: 1 #D400B8
+    );
+    color: white;
+}
 
+#pageButton
+{
+    background: transparent;
+}
+
+#pageButton
+{
+    background-color: transparent;
+}
+
+#pageButton:hover
+{
+    background-color: #606060;
+    color: #f0f0f0;
+}
+
+#pageButton:checked {
+    color: white;
+    background-color: #4772b3;
 }
