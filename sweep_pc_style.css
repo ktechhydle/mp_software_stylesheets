@@ -1,6 +1,6 @@
 QWidget
 {
-    background-color: #202020;
+    background-color: #3d3d3d;
     padding: 0px;
     font-family: "Segoe UI";
     color: white;
@@ -15,8 +15,6 @@ QMainWindow
 QGraphicsView
 {
     border: none;
-    border-radius: 5px;
-    padding: 5px 5px 0px 5px;
 }
 
 QMenuBar
@@ -480,7 +478,7 @@ QSlider::handle:vertical
 
 QFrame::handle
 {
-    border-left: 1px solid #3d3d3d;
+    border-left: 2px solid #505050;
 }
 
 QScrollBar
