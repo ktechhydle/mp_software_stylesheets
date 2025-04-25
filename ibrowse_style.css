@@ -680,3 +680,46 @@ QToolTip
     padding-left: 5px;
     padding-right: 5px;
 }
+
+#customMenu
+{
+    border-radius: 10px;
+    border: 3px solid #181818;
+}
+
+#listWidget
+{
+    background-color: transparent;
+    border: none;
+}
+
+#listWidget QWidget
+{
+    background-color: transparent;
+    border: none;
+}
+
+#listWidget::item
+{
+    height: 35px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0px;
+    background-color: #3f3f3f;
+    color: white;
+}
+
+#listWidget::item:hover
+{
+    background-color: #3f3f3f;
+}
+
+#listWidget::item:selected
+{
+    background-color: #3f3f3f;
+}
+
+#listWidget::item:selected:hover
+{
+    background-color: #3f3f3f;
+}
