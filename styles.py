@@ -9,6 +9,8 @@ try:
         DOT39CSS = stylesheet_f.read()
     with open(os.path.join(base_path, 'mprun_style.css'), 'r') as stylesheet_f:
         MPRUNCSS = stylesheet_f.read()
+    with open(os.path.join(base_path, 'sweep_pc_syle.css'), 'r') as stylesheet_f:
+        SWEEPPCCSS = stylesheet_f.read()
 
 except FileNotFoundError as e:
     print(f'Error: {e}. File not found.')
