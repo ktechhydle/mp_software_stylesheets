@@ -50,17 +50,25 @@ QMenu
     border-radius: 0px;
 }
 
-QMenu::item
-{
-    padding: 5px 10px 5px 10px;
-    min-width: 180px;
-    color: #d3d3d3;
-}
-
 QMenu::icon
 {
     padding: 1px;
-    margin-right: 10px;  /* Optional: Space between icon and text */
+    margin-right: 10px;
+}
+
+QMenu::item
+{
+    border: none;
+    border-radius: 5px;
+    min-width: 180px;
+    padding: 5px 10px 5px 10px;
+    color: #d3d3d3;
+}
+
+QMenu::item:hover
+{
+    background-color: #3f3f3f;
+    color: #c2c2c2;
 }
 
 QMenu::item:selected
@@ -694,6 +702,35 @@ QToolTip
 {
     border-radius: 10px;
     border: 3px solid #181818;
+}
+
+#customMenu::item
+{
+    border: 2px solid transparent;
+    border-radius: 5px;
+    min-width: 180px;
+    padding: 5px 10px 5px 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: transparent;
+    color: #d3d3d3;
+}
+
+#customMenu::item:hover
+{
+    background-color: #3f3f3f;
+    color: #c2c2c2;
+}
+
+#customMenu::item:selected
+{
+    background-color: #3f3f3f;
+    color: white;
+}
+
+#customMenu::item:disabled
+{
+    color: #7e7e7e;
 }
 
 #customMenu QWidget
