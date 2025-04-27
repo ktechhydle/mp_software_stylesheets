@@ -741,3 +741,18 @@ QToolTip
 {
     background-color: #3f3f3f;
 }
+
+#blankWidget {
+    background-color: transparent;
+    border: none;
+}
+
+#blankWidget QLineEdit {
+    background-color: #545454;
+    selection-background-color: #4772b3;
+    font-size: 15px;
+    color: #dfdfdf;
+    border: none;
+    border-radius: 3px;
+    height: 30px;
+}
