@@ -46,22 +46,19 @@ QMenu
 {
     padding: 3px;
     background-color: #181818;
-    border: 1px solid #181818;
-    border-radius: 0px;
-}
-
-QMenu::icon
-{
-    padding: 1px;
-    margin-right: 10px;
+    border: 3px solid #181818;
+    border-radius: 10px;
 }
 
 QMenu::item
 {
-    border: none;
+    border: 2px solid transparent;
     border-radius: 5px;
     min-width: 180px;
     padding: 5px 10px 5px 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: transparent;
     color: #d3d3d3;
 }
 
@@ -74,13 +71,23 @@ QMenu::item:hover
 QMenu::item:selected
 {
     background-color: #3f3f3f;
-    border-radius: 2px;
     color: white;
 }
 
 QMenu::item:disabled
 {
     color: #7e7e7e;
+}
+
+QMenu QWidget
+{
+    background-color: transparent;
+}
+
+QMenu::icon
+{
+    padding: 1px;
+    margin-right: 10px;
 }
 
 QMenu::indicator
@@ -696,46 +703,6 @@ QToolTip
     font-size: 25px;
     width: 20px;
     height: 20px;
-}
-
-#customMenu
-{
-    border-radius: 10px;
-    border: 3px solid #181818;
-}
-
-#customMenu::item
-{
-    border: 2px solid transparent;
-    border-radius: 5px;
-    min-width: 180px;
-    padding: 5px 10px 5px 10px;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    background-color: transparent;
-    color: #d3d3d3;
-}
-
-#customMenu::item:hover
-{
-    background-color: #3f3f3f;
-    color: #c2c2c2;
-}
-
-#customMenu::item:selected
-{
-    background-color: #3f3f3f;
-    color: white;
-}
-
-#customMenu::item:disabled
-{
-    color: #7e7e7e;
-}
-
-#customMenu QWidget
-{
-    background-color: transparent;
 }
 
 #listWidget
