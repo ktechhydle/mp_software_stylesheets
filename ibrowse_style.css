@@ -751,9 +751,10 @@ QToolTip
 #blankWidget QLineEdit {
     background-color: #545454;
     selection-background-color: #4772b3;
-    font-size: 15px;
-    color: #dfdfdf;
     border: none;
     border-radius: 3px;
+    padding: 5px;
     height: 30px;
+    font-size: 15px;
+    color: #dfdfdf;
 }
