@@ -566,7 +566,7 @@ QTabBar::tab
     background-color: transparent;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    padding: 10px 15px 10px 15px;
+    padding: 10px;
     color: #c2c2c2;
 }
 
@@ -586,13 +586,14 @@ QTabBar::close-button {
     image: url("mp_software_stylesheets/assets/close-button-qdockwidget.svg");
     subcontrol-origin: padding;
     subcontrol-position: right;
+    border-radius: 2px;
     padding: 1px;
     width: 10px;
     height: 10px;
 }
 
 QTabBar::close-button:hover {
-    background-color: #fc6262;
+    background-color: #c94e4e;
 }
 
 QTableWidget
