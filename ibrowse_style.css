@@ -498,19 +498,20 @@ QFrame::handle
 
 QScrollBar
 {
-    background: #2b2b2b;
-    border: 1px solid transparent;
-    border-radius: 5px;
+    background: transparent;
+    border: none;
 }
 
 QScrollBar:horizontal
 {
     height: 15px;
+    margin-top: 5px;
 }
 
 QScrollBar:vertical
 {
-    width: 10px;
+    width: 15px;
+    margin-left: 5px;
 }
 
 QScrollBar::add-page,
@@ -530,6 +531,16 @@ QScrollBar::handle
 {
     background: #656565;
     border-radius: 5px;
+}
+
+QScrollBar::handle:vertical
+{
+    min-height: 50px;
+}
+
+QScrollBar::handle:horizontal
+{
+    min-width: 50px;
 }
 
 QScrollBar::handle:hover
