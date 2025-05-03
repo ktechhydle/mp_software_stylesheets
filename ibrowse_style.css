@@ -380,7 +380,7 @@ QPushButton:checked:hover
 
 QDialog
 {
-    background-color: #1f1f1f;
+    background-color: #202020;
 }
 
 QMessageBox
@@ -683,10 +683,11 @@ QToolBox::tab:selected
 
 QToolTip
 {
-    background-color: #1d1d1d;
-    color: #c2c2c2;
-    border: none;
-    padding: 5px;
+    background-color: #303030;
+    color: white;
+    border: 1px solid #606060;
+    font-family: "Segoe UI";
+    padding: 1px;
 }
 
 /* Custom widgets */
