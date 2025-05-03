@@ -626,16 +626,18 @@ QDockWidget
 
 QListWidget
 {
-    background-color: transparent;
+    background-color: #121212;
     border: none;
+    border-radius: 5px;
+    font-family: 'JetBrains Mono';
 }
 
 QListWidget::item
 {
     color: white;
     background-color: transparent;
-    padding: 10px;
-    margin: 3px;
+    padding: 5px;
+    margin: 2px;
     border-radius: 5px;
 }
 
