@@ -1,6 +1,6 @@
 QWidget
 {
-    background-color: #3d3d3d;
+    background-color: #1c1c1c;
     padding: 0px;
     font-family: "Segoe UI";
     color: white;
@@ -8,7 +8,7 @@ QWidget
 
 QMainWindow
 {
-    background-color: #202020;
+    background-color: #1c1c1c;
     color: white;
 }
 
@@ -552,10 +552,6 @@ QScrollBar::handle:hover
 QTabWidget
 {
     border: none;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
 }
 
 QTabWidget::pane
@@ -568,17 +564,15 @@ QTabBar
 {
     background-color: transparent;
     border: none;
-    border-radius: 5px;
     qproperty-drawBase: 0;
 }
 
 QTabBar::tab
 {
     background-color: transparent;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
     padding: 10px;
     color: #c2c2c2;
+    font-family: "JetBrains Mono";
 }
 
 QTabBar::tab:hover
@@ -589,8 +583,8 @@ QTabBar::tab:hover
 
 QTabBar::tab:selected
 {
+    background-color: #2a2a2a;
     color: white;
-    background-color: #3d3d3d;
 }
 
 QTabBar::close-button {
