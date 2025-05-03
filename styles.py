@@ -13,6 +13,8 @@ try:
         SWEEPPCCSS = stylesheet_f.read()
     with open(os.path.join(base_path, 'ibrowse_style.css'), 'r') as stylesheet_f:
         IBROWSECSS = stylesheet_f.read()
+    with open(os.path.join(base_path, 'slik_style.css'), 'r') as stylesheet_f:
+        SLIKCSS = stylesheet_f.read()
 
 except FileNotFoundError as e:
     print(f'Error: {e}. File not found.')
