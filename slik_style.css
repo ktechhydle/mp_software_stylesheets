@@ -573,6 +573,7 @@ QTabBar::tab
     padding: 10px;
     color: #c2c2c2;
     font-family: "JetBrains Mono";
+    font-size: 14px;
 }
 
 QTabBar::tab:hover
