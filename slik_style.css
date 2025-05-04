@@ -578,7 +578,7 @@ QTabBar::tab
 
 QTabBar::tab:hover
 {
-    background-color: #303030;
+    background-color: #222222;
     color: white;
 }
 
@@ -757,13 +757,11 @@ QToolTip
     border: none;
 }
 
-#blankWidget QLineEdit {
-    background-color: #545454;
-    selection-background-color: #4772b3;
+#blankWidget QTreeView {
+    background-color: #525252;
     border: none;
-    border-radius: 3px;
+    border-radius: 10px;
     padding: 5px;
-    height: 30px;
     font-size: 15px;
-    color: #dfdfdf;
+    color: #ffffff;
 }
