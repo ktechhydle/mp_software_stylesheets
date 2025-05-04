@@ -752,12 +752,14 @@ QToolTip
     background-color: #3f3f3f;
 }
 
-#fileBrowser {
-    background-color: transparent;
+#fileBrowser
+{
+    background-color: #525252;
     border: none;
 }
 
-#fileBrowser QTreeView {
+#fileBrowser QTreeView
+{
     background-color: #525252;
     border: none;
     border-radius: 10px;
@@ -777,5 +779,5 @@ QToolTip
 
 #actionButton:hover
 {
-    background-color: #525252;
+    background-color: #707070;
 }
