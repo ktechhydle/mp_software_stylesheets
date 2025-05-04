@@ -752,16 +752,30 @@ QToolTip
     background-color: #3f3f3f;
 }
 
-#blankWidget {
+#fileBrowser {
     background-color: transparent;
     border: none;
 }
 
-#blankWidget QTreeView {
+#fileBrowser QTreeView {
     background-color: #525252;
     border: none;
     border-radius: 10px;
     padding: 5px;
     font-size: 15px;
     color: #ffffff;
+}
+
+#actionButton
+{
+    background-color: transparent;
+    font-family: "Segoe UI";
+    font-size: 18px;
+    width: 20px;
+    height: 20px;
+}
+
+#actionButton:hover
+{
+    background-color: #525252;
 }
