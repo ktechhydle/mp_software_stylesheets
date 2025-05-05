@@ -764,8 +764,15 @@ QToolTip
     border: none;
     border-radius: 10px;
     padding: 5px;
+    font-family: "JetBrains Mono";
     font-size: 15px;
     color: #ffffff;
+}
+
+#fileBrowser QLabel
+{
+    font-family: "JetBrains Mono";
+    font-size: 14px;
 }
 
 #actionButton
